@@ -1,0 +1,19 @@
+Manuel Git
+--------------------
+
+-- POur creer un repo git, Pour commiter la premiere fois et envoyer sur le repo distant
+git init
+git add .
+git commit -m "First commit"
+git remote add origin remote repository URL
+git push origin master
+
+--Pour commiter et envoyer au repo distants- A a decortiquer plus finement,
+git add .
+git commit -m "Description du commit"
+git push origin master
+
+--Pour update du repo distant
+git pull origin master
+
+
