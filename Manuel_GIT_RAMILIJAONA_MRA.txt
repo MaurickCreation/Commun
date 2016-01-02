@@ -16,4 +16,14 @@ git push origin master
 --Pour update du repo distant
 git pull origin master
 
+--checking the status of yout files
+git status
+
+--To see what you’ve changed but not yet staged, type git diff with no other arguments:
+git diff
+
+
+--Remove from tracked files without deleting from hard drivegi
+git rm --cached README
+
 
